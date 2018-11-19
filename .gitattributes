@@ -1,0 +1,21 @@
+# Set default behaviour for files detected as text
+# Normalises line endings on checkin to repository
+* text=auto
+
+# CMake files
+*.cmake  text
+
+# C/C++ source files
+*.c    text  diff=cpp
+*.cpp  text  diff=cpp
+*.hpp  text  diff=cpp
+*.h    text  diff=cpp
+
+# Documentation files
+*.md   text
+*.txt  text
+
+# Image files
+*.jpg   binary
+*.png   binary
+*.gif   binary
